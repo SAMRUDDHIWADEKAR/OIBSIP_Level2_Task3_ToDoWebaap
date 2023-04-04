@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #c0392b;
+}
+
+.add-item {
+    display: flex;
+    margin: 20px;
+}
+
+#input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    font-size: xx-large;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1abc9c;
+    color: rgb(20, 17, 17);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #16a085;
+}
+
+li {
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+li span {
+    margin-right: 10px;
+}
+
+li button {
+    margin-left: auto;
+    background-color: #06523b;
+}
+
+li button:hover {
+    background-color: #c0392b;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
